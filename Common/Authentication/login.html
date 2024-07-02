@@ -1,0 +1,58 @@
+<html>
+
+<header>
+    <title>Login</title>
+    <link rel="styleSheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e3f4154824.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</header>
+
+<body>
+    <form id="myForm">
+        <div class="form-body">
+            <img id="logo-image" src="../../images/logo.png">
+            <div class="form-column">
+                <label class="head-text">Welcome Back!</label></br>
+                <label class="body-text">Enter your details below</label></br></br>
+                <input type="email" id="email" class="input" placeholder="Email" required>
+                <input type="password" id="password" class="input" placeholder="Password" required></br></br>
+                <button class="auth-button" id="login" type="submit">Login</button></br></br>
+                <label class="have-create-account">Don't have account ?</label>
+                <a href="./register.html">Register</a>
+                <div class="loading-indicator" id="loader"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="FooterDivs">
+                <h5>Support</h5>
+                <p>m2.sha226@gmail.com<br>+201552947735</p>
+            </div>
+            <div class="FooterDivs">
+                <h5>Acount</h5>
+                <p>My Account<br>Cart<br>WishList</p>
+            </div>
+            <div class="FooterDivs">
+                <h5>Quick Links</h5>
+                <p>Privacy Policy<br>Terms Of Use<br>Contact</p>
+            </div>
+            <div class="FooterDivs">
+                <h5>Download App</h5>
+                <p>Save $3 with App New User Only<br>
+                    <i id="ParcodeIcon" class="fa-solid fa-barcode"></i>
+                </p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="./auth.js" type="module"></script>
+</body>
+
+</html>

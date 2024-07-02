@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Manage Products</title>
+    <link rel="styleSheet" href="./product.css">
+</head>
+
+<body>
+    <div class="banner"> Products </div>
+    <div class="btns">
+        <button id="add" class="add">Add Product</button>
+        <button id="edit" class="edit">Edit Product</button>
+        <button class="delete" id="delete">Delete Product</button>
+    </div>
+    <div id="addDialog" class="overlay">
+        <div class="dialog">
+            <form id="addForm">
+                <h1 class="titleAdd"> Add Product</h1>
+                <div class="form-group1">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group1">
+                    <label for="categories">Category:</label>
+                    <select id="categories" name="category"></select>
+                </div>
+                <div class="form-group1">
+                    <label for="price">Price:</label>
+                    <input type="number" id="price" name="price" required>
+                </div>
+                <div class="form-group1">
+                    <label for="description">Description:</label>
+                    <textarea type="text" id="description" name="description" class="area" rows="5" required></textarea>
+                </div>
+                <div class="form-group1">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                </div>
+                <div class="form-group2">
+                    <label for="image">Image:</label>
+                    <input type="file" id="image" name="image" required>
+                </div>
+                <div class="form-group3">
+                    <button type="submit" class="submit-button" id="submit">Submit</button>
+                    <button type="button" id="closeAddDialog" class="submit-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="editDialog" class="overlayEdit">
+        <div class="dialogEdit">
+            <form id="editForm">
+                <h1 class="titleEdit"> Edit Product</h1>
+                <div class="form-group1">
+                    <label for="nameEdit">Name:</label>
+                    <input type="text" id="nameEdit" name="nameEdit">
+                </div>
+                <div class="form-group1">
+                    <label for="categoriesEdit">Category:</label>
+                    <select id="categoriesEdit" name="category"></select>
+                </div>
+                <div class="form-group1">
+                    <label for="priceEdit">Price:</label>
+                    <input type="number" id="priceEdit" name="priceEdit">
+                </div>
+                <div class="form-group1">
+                    <label for="descriptionEdit">Description:</label>
+                    <textarea type="text" id="descriptionEdit" name="descriptionEdit" class="area" rows="5"></textarea>
+                </div>
+                <div class="form-group1">
+                    <label for="quantityEdit">Quantity:</label>
+                    <input type="number" id="quantityEdit" name="quantityEdit">
+                </div>
+                <div class="form-group2">
+                    <label for="imageEdit">Image:</label>
+                    <input type="file" id="imageEdit" name="imageEdit">
+                </div>
+                <div class="form-group3">
+                    <button type="submit" class="submit-edit-button" id="submitEdit">Submit</button>
+                    <button type="button" id="closeEditDialog" class="submit-edit-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="loading-indicator" id="loader"></div>
+    <div id="notification" class="notification"></div>
+    <div id="notificationError" class="notificationError"></div>
+    <div id="selectedProduct"></div>
+    <div id="allProducts"></div>
+    <script src="./product.js" type="module"></script>
+</body>
+
+</html>

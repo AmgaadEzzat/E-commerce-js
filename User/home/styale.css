@@ -1,0 +1,607 @@
+* {
+        font-family: Poppins;
+}
+
+a {
+        color: #000000;
+}
+
+a:visited {
+        color: #000000;
+}
+
+#EHome {
+        width: 100%;
+        height: 2500px;
+        background-color: #ffffff;
+}
+
+#Header {
+        width: 80%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 40px;
+}
+
+#Logo {
+        font-size: 150%;
+        width: 10%;
+        float: left;
+        position: relative;
+        bottom: 7px;
+        font-weight: bold;
+}
+
+.navLinks {
+        padding: 0 2%;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+}
+
+#HeaderSearchsection {
+        position: relative;
+        float: right;
+        right: 150px;
+        border: solid 1px black;
+        background-color: #F5F5F5;
+        width: 200px;
+        height: 30px;
+        padding: 7px, 12px, 7px, 20px;
+        opacity: 0.5px;
+}
+
+#HeaderSearchInpute {
+        position: relative;
+        top: 2px;
+        border: none;
+        background-color: #F5F5F5;
+}
+
+#HeaderIcons {
+        float: right;
+        position: relative;
+        right: -180px;
+        top: 3px;
+}
+
+#HeaderIcons i {
+        padding: 0px 5px;
+}
+
+#LineAfterHeader {
+        position: relative;
+        top: 1.5%;
+}
+
+#AllSections {
+        position: relative;
+        top: 2%;
+        width: 80%;
+}
+
+.BannerSection{
+        height: 15%;
+}
+
+#TopBanner {
+        color: #ffffff;
+        width: 100%;
+        height: 70%;
+        float: right;
+        position: relative;
+        top: 5%;
+        left: 2%;
+        border-radius: 8px;
+}
+
+#BottomBanner {
+        color: #ffffff;
+        width: 100%;
+        height: 70%;
+        float: right;
+        position: relative;
+        top: 20%;
+        left: 2%;
+        border-radius: 8px;
+}
+
+.BannerImg {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        border: 1px black groove;
+}
+
+#Section2 {
+        height: 12%;
+}
+
+#CategoriesTxt {
+        height: 40%;
+}
+
+#CategoriesHead {
+        float: left;
+}
+
+#CategoriesTopHead {
+        position: relative;
+        left: -40px;
+}
+
+#CategoriesHeadRec {
+        width: 10px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: #DB4444;
+        display: inline-block;
+}
+
+#CategoriesWord {
+        display: inline-block;
+        position: relative;
+        top: -8px;
+        left: 5px;
+        color: #DB4444;
+        font-weight: bold;
+        font-size: 90%;
+}
+
+#BrowseByCategory {
+        position: relative;
+        top: 20px;
+        left: 60px;
+        color: #000000;
+        font-size: 150%;
+        font-weight: bold;
+}
+
+#CategoriesIcons {
+        float: right;
+        position: relative;
+        left: 235%;
+        width: 60px;
+        height: 20%;
+}
+
+#CircleArrowRight {
+        font-size: 120%;
+        float: right;
+        color: rgb(207, 192, 192);
+}
+
+#CircleArrowLeft {
+        font-size: 120%;
+        float: left;
+        color: rgb(207, 192, 192);
+}
+
+#Categories a {
+        color: #000000;
+}
+
+#Categories a:visited {
+        color: #000000
+}
+
+#Categories div {
+        display: inline-block;
+        width: 15%;
+        height: 40%;
+        margin: 0px 10px;
+        border: rgb(207, 192, 192) solid 1px;
+}
+
+#Categories div i {
+        font-size: 250%;
+        position: relative;
+        top: 20%;
+}
+
+#Categories div p {
+        position: relative;
+        top: 20%;
+}
+
+#Section3 {
+        height: 25%;
+}
+
+#ProductsTxt {
+        height: 20%;
+}
+
+#ProductsHead {
+        float: left;
+}
+
+#ProductsTopHead {
+        position: relative;
+        left: -40px;
+}
+
+#ProductsHeadRec {
+        width: 10px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: #DB4444;
+        display: inline-block;
+}
+
+#ProductsWord {
+        display: inline-block;
+        position: relative;
+        top: -8px;
+        left: 5px;
+        color: #DB4444;
+        font-weight: bold;
+        font-size: 90%;
+}
+
+#ExploreOurProducts {
+        position: relative;
+        top: 20px;
+        left: 60px;
+        color: #000000;
+        font-size: 150%;
+        font-weight: bold;
+}
+
+#ProductsIcons {
+        float: right;
+        position: relative;
+        left: 220%;
+        width: 60px;
+        height: 20%;
+}
+
+#CircleArrowRightForProdects {
+        font-size: 120%;
+        float: right;
+        color: rgb(207, 192, 192);
+}
+
+#CircleArrowLeftForProdects {
+        font-size: 120%;
+        float: left;
+        color: rgb(207, 192, 192);
+}
+
+#Products {
+        height: 80%;
+}
+
+.ProductsRow {
+        height: 45%;
+}
+
+.DivProducts {
+        background-color: white;
+        width: 19%;
+        height: 200px;
+        display: inline-block;
+        border: 1px black groove;
+        margin-left: 5px;
+        border-radius: 8px;
+}
+
+.DivProducts:hover {
+        transform: scale(1.1);
+
+        .AddToCart {
+                display: inline-block;
+
+        }
+}
+
+.DivProducts img {
+        position: relative;
+        top: 7%;
+        left: 3%;
+        height: 40%;
+        width: 80px;
+}
+
+.titleOfProduct {
+        font-weight: bold;
+}
+
+.AddToCart {
+        width: 100%;
+        background-color: #000000;
+        border-radius: 0px 0px 7px 7px;
+        color: #ffffff;
+        display: inline-block;
+        position: relative;
+}
+
+.AddToCart a {
+        color: #ffffff;
+}
+
+.AddToCart p {
+        display: inline-block;
+        position: relative;
+        top: -10px;
+}
+
+.ProductIcons {
+        float: right;
+        position: relative;
+        top: 5%;
+        right: 5%;
+}
+
+.ProductIcons i {
+        margin: 10px 0px;
+        display: block;
+}
+
+.ProductIcons img {
+        width: 18px;
+        height: 20px;
+        display: block;
+        margin: 5px 0px;
+}
+
+#ViewAllProducts {
+        width: 17%;
+        height: 7%;
+        background-color: #DB4444;
+        color: #ffffff;
+        border-radius: 5px;
+
+}
+
+#ViewAllProducts a {
+        position: relative;
+        top: 8px;
+        color: #ffffff;
+        text-decoration: none;
+}
+
+#Section4 {
+        height: 20%;
+        position: relative;
+        top: 10%;
+}
+
+#FeaturedTxt {
+        height: 15%;
+}
+
+#FeaturedHead {
+        float: left;
+}
+
+#FeaturedTopHead {
+        position: relative;
+        left: 20px;
+}
+
+#FeaturedHeadRec {
+        width: 10px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: #DB4444;
+        display: inline-block;
+}
+
+#FeaturedWord {
+        display: inline-block;
+        position: relative;
+        top: -8px;
+        left: 5px;
+        color: #DB4444;
+        font-weight: bold;
+        font-size: 90%;
+}
+
+#NewArrival {
+        position: relative;
+        top: 20px;
+        left: 60px;
+        color: #000000;
+        font-size: 150%;
+        font-weight: bold;
+}
+
+#NewArrivalDiv {
+        height: 70%;
+        width: 90%;
+        position: relative;
+        top: 20%;
+}
+
+#NewArrivalLeftDiv {
+        position: relative;
+        left: -80px;
+        bottom: 40px;
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        margin: 0px -30px;
+        background-color: #131212;
+}
+
+#NewArrivalRightDiv {
+        display: inline-block;
+        position: relative;
+        width: 45%;
+        height: 100%;
+        margin: 0px -30px;
+}
+
+#NewArrivalRightTopDiv {
+        background-color: #131212;
+        height: 48%;
+}
+
+#NewArrivalRightBottomDiv {
+        height: 48%;
+        position: relative;
+        top: 10px;
+}
+
+#NewArrivalRightRightBottomDiv {
+        width: 48%;
+        height: 100%;
+        float: left;
+        background-color: #131212;
+
+}
+
+#NewArrivalRightLeftBottomDiv {
+        width: 48%;
+        height: 100%;
+        float: right;
+        background-color: #131212;
+
+}
+
+#PlaystationImg {
+        display: inline-block;
+        width: 100%;
+}
+
+#WomanImg {
+        width: 57.5%;
+        float: right;
+        transform: scaleX(-1);
+}
+
+#AmazonImg {
+        width: 100%;
+        position: relative;
+        left: 15px;
+        top: 10px;
+}
+
+#GucciImg {
+        width: 90%;
+        position: relative;
+        left: 0px;
+        top: -15px;
+}
+
+#NewArrivalLeftDiv h4 {
+        position: relative;
+        top: -150px;
+        left: 30px;
+        float: left;
+        color: #ffffff;
+}
+
+#NewArrivalLeftDiv p {
+        position: relative;
+        top: -110px;
+        left: -70px;
+        float: left;
+        color: #ffffff;
+        font-size: 70%;
+        text-align: left;
+}
+
+#NewArrivalLeftDiv a {
+        position: relative;
+        top: -50px;
+        left: -240px;
+        float: left;
+        color: #ffffff;
+        font-size: 70%;
+}
+
+#NewArrivalRightTopDiv h5 {
+        float: left;
+        position: relative;
+        left: 20px;
+        color: #ffffff;
+}
+
+#Section5 {
+        height: 10%;
+        position: relative;
+        top: 50px;
+}
+
+.services {
+        width: 25%;
+        height: 70%;
+        background-color: #F5F5F5;
+        display: inline-block;
+        margin: 0 25px;
+        position: relative;
+        top: 40%;
+        border-radius: 5px;
+}
+
+.services i {
+        position: relative;
+        top: 30px;
+        font-size: 220%;
+}
+
+.services p {
+        position: relative;
+        top: 50px;
+        margin: -10px 0;
+        color: #000000;
+}
+
+.services .PTitle {
+        font-weight: bold;
+        margin: 10px 0;
+}
+
+footer {
+        position: relative;
+        top: 150px;
+        height: 10%;
+        background-color: #000000;
+        color: #ffffff;
+}
+
+.FooterDivs {
+        display: inline-block;
+        margin: 0px 15px;
+        width: 20%;
+        height: 65%;
+        text-align: left;
+        vertical-align: top;
+}
+
+#ParcodeIcon {
+        font-size: 300%;
+}
+
+#Copyright,
+#CopyrightIcon,
+#CopyrightTxt {
+        display: inline-block;
+
+}
+
+.notification {
+        display: none;
+        position: fixed;
+        top: 50%;
+        right: 40%;
+        padding: 15px;
+        background-color: #ff0000;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        transition: opacity 0.5s ease-in-out;
+}
+
+.notification.show {
+        display: block;
+        opacity: 1;
+}
+
+.notification.hide {
+        opacity: 0;
+}

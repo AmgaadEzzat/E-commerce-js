@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Manage Categories</title>
+    <link rel="styleSheet" href="./category.css">
+</head>
+
+<body>
+    <div class="banner"> Categories </div>
+    <div class="btns">
+        <button id="add" class="add">Add Category</button>
+        <button id="edit" class="edit">Edit Category</button>
+        <button class="delete" id="delete">Delete Category</button>
+    </div>
+    <div id="addDialog" class="overlay">
+        <div class="dialog">
+            <form id="addForm">
+                <h1 class="titleAdd"> Add Category</h1>
+                <div class="form-group1">
+                    <label for="name">Title:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label></label>
+                </div>
+                <div class="form-group2">
+                    <label for="image">Upload Image:</label>
+                    <input type="file" id="image" name="image" required>
+                </div>
+                <div class="form-group3">
+                    <button type="submit" class="submit-button" id="submit">Submit</button>
+                    <button type="button" id="closeAddDialog" class="submit-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="editDialog" class="overlayEdit">
+        <div class="dialogEdit">
+            <form id="editForm">
+                <h1 class="titleEdit"> Edit Category</h1>
+                <div class="form-group1">
+                    <label for="nameEdit">Edit Title:</label>
+                    <input type="text" id="nameEdit" name="nameEdit">
+                    <label></label>
+                </div>
+                <div class="form-group2">
+                    <label for="imageEdit">Edit Image:</label>
+                    <input type="file" id="imageEdit" name="imageEdit">
+                </div>
+                <div class="form-group3">
+                    <button type="submit" class="submit-edit-button" id="submitEdit">Submit</button>
+                    <button type="button" id="closeEditDialog" class="submit-edit-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="loading-indicator" id="loader"></div>
+    <div id="notification" class="notification"></div>
+    <div id="notificationError" class="notificationError"></div>
+    <div id="selectedCategory"></div>
+    <div id="allCategories"></div>
+    <script src="./category.js" type="module"></script>
+</body>
+
+</html>

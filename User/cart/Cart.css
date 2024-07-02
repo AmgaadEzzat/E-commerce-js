@@ -1,0 +1,191 @@
+header {
+    background-color: #000000;
+    height: 50px;
+}
+
+header p {
+    padding-top: 10px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+nav {
+    background-color: #FAFAFA;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+#navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    font-size: 20px;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+span a {
+    color: black;
+}
+
+.spanSearch {
+    margin-top: 10px;
+}
+
+#inputSearch {
+    font-size: 14px;
+    width: 210px;
+    background-color: rgba(245, 245, 245, 1);
+    border: 0;
+    height: 40px;
+}
+
+.search {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+#divAfterNav {
+    height: 150px;
+}
+
+#paragraphAfterNav {
+    padding: 70px 130px;
+}
+
+#tableContainer {
+    width: 90%;
+    margin-left: 120px;
+}
+
+.table {
+    width: 90%;
+    border-color: white;
+}
+
+.table>thead {
+    vertical-align: middle;
+}
+
+table, thead tr, tr.tableRow {
+    border: 3px solid #FAFAFA;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    height: 70px;
+}
+
+table tbody tr.tableRow {
+    height: 90px;
+}
+
+table tbody tr.emptyRow {
+    height: 40px;
+}
+
+.widThirty {
+    width: 30%;
+}
+
+.wid {
+    width: 20%;
+}
+
+.divAfterTable {
+    margin-top: 5%;
+    width: 80%; 
+    margin-left: 130px;
+}
+
+.anchorButton {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cart {
+    width: 33%;
+    padding: 30px 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-right: 130px;
+    margin-top: 80px;
+}
+
+.subtotal {
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+    padding: 12px;
+}
+
+.total {
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.cartBtn {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 70%;
+    height: 60px;
+}
+
+.fontLighter {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.divFooter {
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #000000;
+    color: white;
+}
+
+ul.footrUl li {
+    float: none;
+}
+
+ul.footrUl li a {
+    padding: 10px;
+    font-size: 18px;
+    color: #FAFAFA;
+    text-align: left;
+    padding-left: 0;
+}
+
+div.links i {
+    font-size: 30px;
+}

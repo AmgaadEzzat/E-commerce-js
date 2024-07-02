@@ -1,0 +1,112 @@
+.form-body {
+    width: 100%;
+    height: 70%;
+    /* border: 2px orange dashed; */
+    display: flex;
+}
+
+#logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border: 2px orange dashed; */
+}
+
+.form-column {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.head-text {
+    color: black;
+    flex: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.body-text {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.input {
+    width: 50%;
+    height: 8%;
+    border: none;
+    border-bottom: 2px solid rgba(59, 56, 56, 0.185);
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.input:focus {
+    border-bottom-color: blue;
+}
+
+.auth-button {
+    width: 50%;
+    height: 8%;
+    background-color: rgb(234, 67, 53);
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.have-create-account {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10%;
+}
+
+.loading-indicator {
+    display: none;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid black;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 47%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.FooterDivs {
+    display: inline-block;
+    margin: 0px 15px;
+    width: 20%;
+    height: 65%;
+    text-align: left;
+    vertical-align: top;
+}
+
+#Copyright,
+#CopyrightIcon,
+#CopyrightTxt {
+    display: inline-block;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: #000000;
+    color: #ffffff;
+}
